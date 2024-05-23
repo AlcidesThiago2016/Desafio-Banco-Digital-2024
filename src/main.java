@@ -8,6 +8,7 @@ public class main {
 
         cc.depositar(100);
         cc.transferir(50, pp);
+        cc.emprestimo(1000);
 
         cc.imprimirExtrato();
         pp.imprimirExtrato();

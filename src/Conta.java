@@ -39,4 +39,10 @@ public abstract class Conta implements IConta{
         this.sacar(valor);
         contaDestino.depositar(valor);
     }
+
+    @Override
+    public void emprestimo(double valor) {
+        this.depositar(valor);
+    }
+
 }
